@@ -2,5 +2,6 @@ FROM centos:latest
 MAINTAINER pinenut
 ENV REFRESHED_AT 2019-01-29 10:45
 CMD mkdir /etc/jing
-Add test /etc/jing
+Add ./test /etc/jing
+CMD cd /etc/jing
 CMD test
